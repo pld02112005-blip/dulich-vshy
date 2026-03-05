@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Miền Nam - Du lịch Việt Nam</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand"><span>Vietnam</span><small>Travel</small></div>
+    <nav class="nav">
+      <a href="index.html">Trang chủ</a>
+      <a href="mienbac.html">Miền Bắc</a>
+      <a href="mientrung.html">Miền Trung</a>
+      <a class="active" href="miennam.html">Miền Nam</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <img src="lm.jpg" alt="Banner Miền Nam">
+      <div class="overlay"></div>
+      <div class="title-wrap">
+        <div>
+          <h1>Miền Nam</h1>
+          <p>Năng động – phóng khoáng – sông nước & biển đảo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="video-box">
+        <div class="video-note">VIDEO DU LỊCH MIỀN NAM</div>
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/ID_VIDEO_MIEN_NAM"
+          title="Du lịch Miền Nam"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <h2 class="section-title script" style="margin-top:22px;">Ảnh</h2>
+
+      <div class="slider" id="slider-nam">
+        <div class="slides">
+          <div class="slide"><img src="hcm.jpg" alt="TP.HCM"></div>
+          <div class="slide"><img src="cantho.jpg" alt="Cần Thơ"></div>
+          <div class="slide"><img src="bentre.jpg" alt="Bến Tre"></div>
+          <div class="slide"><img src="tayninh.jpg" alt="Tây Ninh"></div>
+          <div class="slide"><img src="phuquoc.jpg" alt="Phú Quốc"></div>
+        </div>
+        <button class="btn prev" onclick="prevSlide('slider-nam')">‹</button>
+        <button class="btn next" onclick="nextSlide('slider-nam')">›</button>
+        <div class="dots"></div>
+      </div>
+
+      <div class="subtle-line"></div>
+
+      <h2 class="section-title">5 ĐỊA ĐIỂM NỔI BẬT</h2>
+
+      <div class="place">
+        <img src="hcm.jpg" alt="TP.HCM">
+        <div>
+          <h3>TP. Hồ Chí Minh</h3>
+          <p>
+            TP.HCM là trung tâm kinh tế – văn hoá năng động với nhịp sống nhanh và nhiều trải nghiệm hiện đại. Bạn có thể khám phá các công trình
+            biểu tượng như Nhà thờ Đức Bà, Bưu điện, Dinh Độc Lập; dạo phố đi bộ, cà phê rooftop và “food tour” khắp các quận. Thành phố này
+            nổi bật nhờ sự đa dạng: từ các khu chợ truyền thống đến trung tâm thương mại, từ ẩm thực đường phố đến nhà hàng sang. Điểm mạnh của
+            TP.HCM là năng lượng sôi động, nhiều hoạt động giải trí, và cảm giác “đi đâu cũng có chuyện để trải nghiệm”.
+          </p>
+        </div>
+      </div>
+
+      <div class="place">
+        <img src="cantho.jpg" alt="Cần Thơ">
+        <div>
+          <h3>Cần Thơ</h3>
+          <p>
+            Cần Thơ là “thủ phủ miền Tây” nổi tiếng với sông nước, miệt vườn và chợ nổi. Trải nghiệm đáng thử nhất là dậy sớm đi chợ nổi Cái Răng,
+            ngắm ghe thuyền tấp nập và thưởng thức bữa sáng ngay trên sông. Ngoài ra bạn có thể ghé vườn trái cây, tham quan nhà cổ, ăn đặc sản
+            miền Tây như bánh xèo, lẩu mắm, cá lóc nướng trui. Điểm mạnh của Cần Thơ là văn hoá sông nước đặc trưng, con người thân thiện
+            và nhịp sống dễ chịu, “đi một lần là muốn quay lại”.
+          </p>
+        </div>
+      </div>
+
+      <div class="place">
+        <img src="bentre.jpg" alt="Bến Tre">
+        <div>
+          <h3>Bến Tre</h3>
+          <p>
+            Bến Tre nổi tiếng với những rặng dừa xanh mát và trải nghiệm du lịch sinh thái nhẹ nhàng. Du khách thường đi thuyền trên kênh rạch,
+            ghé các lò kẹo dừa, thưởng thức nước dừa tươi, tham quan vườn trái cây và trải nghiệm cuộc sống miệt vườn. Không khí ở Bến Tre yên bình,
+            phù hợp để “đổi gió”, rời xa ồn ào phố thị. Điểm mạnh của Bến Tre là trải nghiệm địa phương chân thật, ẩm thực dân dã và cảm giác
+            thư giãn rất rõ — đúng kiểu miền Tây hiền hoà.
+          </p>
+        </div>
+      </div>
+
+      <div class="place">
+        <img src="tayninh.jpg" alt="Tây Ninh">
+        <div>
+          <h3>Tây Ninh</h3>
+          <p>
+            Tây Ninh nổi bật với núi Bà Đen — điểm đến vừa có cảnh đẹp, vừa mang màu sắc tâm linh. Bạn có thể đi cáp treo, săn mây,
+            ngắm toàn cảnh đồng bằng và trải nghiệm không khí mát mẻ trên núi. Ngoài ra Tây Ninh còn có các điểm tham quan văn hoá,
+            ẩm thực đặc trưng như bánh tráng phơi sương, muối tôm. Điểm mạnh của Tây Ninh là chuyến đi ngắn nhưng nhiều trải nghiệm,
+            hợp cho cuối tuần: vừa “xả stress”, vừa có ảnh đẹp.
+          </p>
+        </div>
+      </div>
+
+      <div class="place">
+        <img src="phuquoc.jpg" alt="Phú Quốc">
+        <div>
+          <h3>Phú Quốc</h3>
+          <p>
+            Phú Quốc là thiên đường biển đảo với bãi cát trắng, nước trong và hoàng hôn cực đẹp. Bạn có thể tắm biển, đi tour đảo,
+            lặn ngắm san hô, khám phá làng chài hoặc check-in các điểm nổi tiếng. Ẩm thực ở đây cũng hấp dẫn với hải sản tươi, gỏi cá trích,
+            bún quậy. Điểm mạnh của Phú Quốc là trải nghiệm nghỉ dưỡng “đúng nghĩa”: vừa thư giãn, vừa vui chơi, hợp cả đi gia đình lẫn couple.
+            Nếu cần một chuyến đi để nạp lại năng lượng, Phú Quốc là lựa chọn rất đáng.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2026 Thiết kế bởi Kathy</footer>
+  </div>
+
+  <script>
+    const sliders = {};
+
+    function initSlider(id){
+      const el = document.getElementById(id);
+      const slides = el.querySelector('.slides');
+      const total = slides.children.length;
+      const dotsWrap = el.querySelector('.dots');
+
+      sliders[id] = { index: 0, total, slides, dots: [] };
+
+      dotsWrap.innerHTML = '';
+      for(let i=0;i<total;i++){
+        const b = document.createElement('button');
+        b.className = 'dot' + (i===0 ? ' active' : '');
+        b.onclick = () => goToSlide(id, i);
+        dotsWrap.appendChild(b);
+        sliders[id].dots.push(b);
+      }
+    }
+
+    function updateSlider(id){
+      const s = sliders[id];
+      s.slides.style.transform = `translateX(-${s.index*100}%)`;
+      s.dots.forEach((d,i)=> d.classList.toggle('active', i===s.index));
+    }
+
+    function nextSlide(id){
+      const s = sliders[id];
+      s.index = (s.index + 1) % s.total;
+      updateSlider(id);
+    }
+    function prevSlide(id){
+      const s = sliders[id];
+      s.index = (s.index - 1 + s.total) % s.total;
+      updateSlider(id);
+    }
+    function goToSlide(id, i){
+      sliders[id].index = i;
+      updateSlider(id);
+    }
+
+    initSlider('slider-nam');
+  </script>
+</body>
+</html>

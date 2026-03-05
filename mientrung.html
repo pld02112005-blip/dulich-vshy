@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Miền Trung - Du lịch Việt Nam</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand"><span>Vietnam</span><small>Travel</small></div>
+    <nav class="nav">
+      <a href="index.html">Trang chủ</a>
+      <a href="mienbac.html">Miền Bắc</a>
+      <a class="active" href="mientrung.html">Miền Trung</a>
+      <a href="miennam.html">Miền Nam</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <img src="ahue.jpg" alt="Banner Miền Trung">
+      <div class="overlay"></div>
+      <div class="title-wrap">
+        <div>
+          <h1>Miền Trung</h1>
+          <p>Di sản – biển xanh – ẩm thực đậm đà.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="video-box">
+        <div class="video-note">VIDEO DU LỊCH MIỀN TRUNG</div>
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/ID_VIDEO_MIEN_TRUNG"
+          title="Du lịch Miền Trung"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <h2 class="section-title script" style="margin-top:22px;">Ảnh</h2>
+
+      <div class="slider" id="slider-trung">
+        <div class="slides">
+          <div class="slide"><img src="danang.jpg" alt="Đà Nẵng"></div>
+          <div class="slide"><img src="Hue.jpg" alt="Huế"></div>
+          <div class="slide"><img src="hoian.jpg" alt="Hội An"></div>
+          <div class="slide"><img src="nhatrang.jpg" alt="Nha Trang"></div>
+          <div class="slide"><img src="quangbinh.jpg" alt="Quảng Bình"></div>
+        </div>
+        <button class="btn prev" onclick="prevSlide('slider-trung')">‹</button>
+        <button class="btn next" onclick="nextSlide('slider-trung')">›</button>
+        <div class="dots"></div>
+      </div>
+
+      <div class="subtle-line"></div>
+
+      <h2 class="section-title">5 ĐỊA ĐIỂM NỔI BẬT</h2>
+
+      <div class="place">
+        <img src="danang.jpg" alt="Đà Nẵng">
+        <div>
+          <h3>Đà Nẵng</h3>
+          <p>
+            Đà Nẵng là thành phố đáng sống với biển xanh, đường phố sạch đẹp và nhịp sống hiện đại. Bạn có thể tắm biển Mỹ Khê,
+            tham quan bán đảo Sơn Trà, check-in cầu Rồng – cầu Vàng và thưởng thức hải sản tươi. Đà Nẵng cũng là “trung tâm kết nối”,
+            rất tiện để đi Huế, Hội An trong cùng chuyến. Điểm mạnh của Đà Nẵng là dịch vụ du lịch tốt, nhiều trải nghiệm vui chơi,
+            cảnh quan vừa có biển vừa có núi, phù hợp cả đi gia đình lẫn đi nhóm bạn.
+          </p>
+        </div>
+      </div>
+
+      <div class="place">
+        <img src="Hue.jpg" alt="Huế">
+        <div>
+          <h3>Huế</h3>
+          <p>
+            Huế mang vẻ đẹp trầm mặc, cổ kính, gắn với lịch sử triều Nguyễn. Đại Nội, lăng tẩm, chùa Thiên Mụ và sông Hương tạo nên
+            một không gian rất thơ. Du lịch Huế hợp để đi chậm: nghe ca Huế, dạo cầu Tràng Tiền, ngắm hoàng hôn. Ẩm thực Huế cũng nổi tiếng
+            với bún bò, cơm hến, bánh bèo – bánh nậm – bánh lọc, vị đậm đà mà tinh tế. Điểm mạnh của Huế là chiều sâu văn hoá – di sản,
+            nhiều góc ảnh “retro” và cảm giác bình yên rất riêng.
+          </p>
+        </div>
+      </div>
+
+      <div class="place">
+        <img src="hoian.jpg" alt="Hội An">
+        <div>
+          <h3>Hội An</h3>
+          <p>
+            Hội An hấp dẫn bởi phố cổ rực rỡ đèn lồng, những mái nhà vàng và không khí hoài niệm. Buổi tối là thời điểm đẹp nhất để tản bộ,
+            ngắm sông Hoài, thả hoa đăng và thử các món đặc sản như cao lầu, mì Quảng, bánh mì Hội An. Ngoài phố cổ, bạn có thể ghé biển An Bàng
+            hoặc làng gốm, làng rau để trải nghiệm đời sống địa phương. Điểm mạnh của Hội An là vẻ đẹp lãng mạn, nhiều hoạt động nhẹ nhàng,
+            phù hợp cho người thích chụp ảnh và tận hưởng không khí “chill”.
+          </p>
+        </div>
+      </div>
+
+      <div class="place">
+        <img src="nhatrang.jpg" alt="Nha Trang">
+        <div>
+          <h3>Nha Trang</h3>
+          <p>
+            Nha Trang nổi tiếng với biển trong, nắng đẹp và các hoạt động vui chơi trên biển. Bạn có thể đi đảo, lặn ngắm san hô,
+            trải nghiệm tour cano, hoặc thư giãn với cảnh biển và hải sản. Thành phố cũng có nhiều điểm tham quan như tháp Bà Ponagar,
+            chợ đêm, khu vui chơi giải trí. Điểm mạnh của Nha Trang là không khí nghỉ dưỡng, dịch vụ du lịch đa dạng, hợp cho chuyến đi
+            “xả stress”, vừa vui vừa thư giãn.
+          </p>
+        </div>
+      </div>
+
+      <div class="place">
+        <img src="quangbinh.jpg" alt="Quảng Bình">
+        <div>
+          <h3>Quảng Bình</h3>
+          <p>
+            Quảng Bình là vùng đất của hang động và thiên nhiên kỳ vĩ, nổi bật với Phong Nha – Kẻ Bàng. Đây là lựa chọn tuyệt vời cho ai thích
+            khám phá: đi thuyền trong hang, trekking rừng, trải nghiệm các tour mạo hiểm phù hợp nhiều cấp độ. Cảnh quan ở Quảng Bình vừa hoang sơ,
+            vừa độc đáo, tạo cảm giác “phiêu” đúng nghĩa. Điểm mạnh của Quảng Bình là hệ sinh thái tự nhiên đặc biệt, nhiều hoạt động trải nghiệm,
+            và những khoảnh khắc thiên nhiên khiến người ta nhớ rất lâu.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2026 Thiết kế bởi Kathy</footer>
+  </div>
+
+  <script>
+    const sliders = {};
+
+    function initSlider(id){
+      const el = document.getElementById(id);
+      const slides = el.querySelector('.slides');
+      const total = slides.children.length;
+      const dotsWrap = el.querySelector('.dots');
+
+      sliders[id] = { index: 0, total, slides, dots: [] };
+
+      dotsWrap.innerHTML = '';
+      for(let i=0;i<total;i++){
+        const b = document.createElement('button');
+        b.className = 'dot' + (i===0 ? ' active' : '');
+        b.onclick = () => goToSlide(id, i);
+        dotsWrap.appendChild(b);
+        sliders[id].dots.push(b);
+      }
+    }
+
+    function updateSlider(id){
+      const s = sliders[id];
+      s.slides.style.transform = `translateX(-${s.index*100}%)`;
+      s.dots.forEach((d,i)=> d.classList.toggle('active', i===s.index));
+    }
+
+    function nextSlide(id){
+      const s = sliders[id];
+      s.index = (s.index + 1) % s.total;
+      updateSlider(id);
+    }
+    function prevSlide(id){
+      const s = sliders[id];
+      s.index = (s.index - 1 + s.total) % s.total;
+      updateSlider(id);
+    }
+    function goToSlide(id, i){
+      sliders[id].index = i;
+      updateSlider(id);
+    }
+
+    initSlider('slider-trung');
+  </script>
+</body>
+</html>
